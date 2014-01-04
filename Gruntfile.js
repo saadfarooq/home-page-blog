@@ -160,7 +160,7 @@ module.exports = function (grunt) {
       },
       dist: {
         options: {
-          dest: '<%= yeoman.dist %>',
+          dest: '<%= yeoman.dist %>'
         }
       },
       server: {
@@ -324,7 +324,7 @@ module.exports = function (grunt) {
         verbose: true
       },
       check: {
-       src: ['<%= yeoman.app %>/css/**/*.css',
+        src: ['<%= yeoman.app %>/css/**/*.css',
              '<%= yeoman.app %>/_scss/**/*.scss']
       }
     },
@@ -403,14 +403,14 @@ module.exports = function (grunt) {
     'rev',
     'usemin',
     'htmlmin'
-    ]);
+  ]);
 
   grunt.registerTask('deploy', [
     'check',
     'test',
     'build',
     'buildcontrol'
-    ]);
+  ]);
 
   grunt.registerTask('default', [
     'check',
