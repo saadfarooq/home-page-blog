@@ -17,3 +17,20 @@ title: Home Page
     {% endfor %}
   </ul>
 </div>
+
+<hr>
+<h1>Recent Posts <small>In any category</small></h1>
+<ul class="posts">
+    {% for post in site.posts limit: 10 %}
+      <li>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p>{{ post.date | date_to_string }}</p>
+        <p>
+          {{ post.content | strip_html | truncatewords:50 }}
+        </p>
+        <p>
+          <a href="{{ post.url }}">Read more...</a>
+        </p>
+      </li>
+    {% endfor %}
+  </ul>
