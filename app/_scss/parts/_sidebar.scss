@@ -8,10 +8,11 @@
   a {
     color: $color-sidebar-link;
   }
+  inner {
+    padding: 20px;
+  }
 }
-.masthead-inner {
-  padding: 20px;
-}
+
 
 /* Masthead content */
 // .masthead .lead {
