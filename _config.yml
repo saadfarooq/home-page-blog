@@ -61,7 +61,7 @@ production_url : http://saa.dfarooq.com
 #   - When in Localhost, your site will run from root "/" regardless of BASE_PATH
 #   - Only the following values are falsy: ["", null, false]
 #   - When setting BASE_PATH it must be a valid url.
-BASE_PATH : false
+BASE_PATH : ""
 
 # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
 # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
