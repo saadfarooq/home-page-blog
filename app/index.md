@@ -7,19 +7,9 @@ title: Home Page
 <p>The are my rambling on research, my developments activities and life in general.</p>
 
 <ul class="link">
+  {% for category in site.categories %}
   <li>
-    <a href="development">Development</a>
+    <a href="categories/{{ category[0] }}">{{ category[0] }}</a>
   </li>
-  <li>
-    <a href="research">Research</a>
-  </li>
-  <li>
-    <a href="Life">Life</a>
-  </li>
-</ul>
-
-<!-- <ul class="posts">
-  {% for post in site.posts %}
-  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
-</ul> -->
+</ul>
