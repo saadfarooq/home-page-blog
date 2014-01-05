@@ -13,8 +13,6 @@ GEM
       chunky_png (~> 1.2)
       fssm (>= 0.2.7)
       sass (~> 3.1)
-    compass_twitter_bootstrap (2.3.1)
-      compass
     csscss (1.3.2)
       colorize
       parslet (~> 1.5)
@@ -53,6 +51,10 @@ GEM
     redcarpet (2.3.0)
     safe_yaml (0.9.7)
     sass (3.2.13)
+    stringex (1.4.0)
+    susy (1.0.9)
+      compass (>= 0.12.2)
+      sass (>= 3.2.0)
     syntax (1.2.0)
     yajl-ruby (1.1.0)
 
@@ -61,7 +63,8 @@ PLATFORMS
 
 DEPENDENCIES
   compass (>= 0.12)
-  compass_twitter_bootstrap
   csscss (~> 1.3)
   jekyll (~> 1.3.0)
   redcarpet
+  stringex (~> 1.4.0)
+  susy
