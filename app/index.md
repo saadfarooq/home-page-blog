@@ -6,10 +6,15 @@ title: Home Page
 <p>I feel awkward writing about myself... so explore and find out for yourself.</p>
 <p>The are my rambling on research, my developments activities and life in general.</p>
 
-<ul class="link">
+<div class="links">
   {% for category in site.categories %}
-  <li>
-    <a href="categories/{{ category[0] }}">{{ category[0] }}</a>
-  </li>
+  <div style="display:inline-block" class="col-md-3">
+    <a class="btn btn-default" href="categories/{{ category[0] }}">{{ category[0] }}</a>
+  </div>
   {% endfor %}
-</ul>
+</div>
+<!--   {% for category in site.categories %}
+  <li>
+    <a class="btn btn-default" href="categories/{{ category[0] }}">{{ category[0] }}</a>
+  </li>
+  {% endfor %} -->

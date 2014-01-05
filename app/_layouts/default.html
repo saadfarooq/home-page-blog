@@ -2,11 +2,12 @@
 <html>
 {% include header.html %}
 <body>
+  <div class="row">
     {% include sidebar.html %}
-    <div class="content">
+    <div class="content col-md-8 col-md-offset-4">
         {{ content }}
     </div>
-
+  </div>
 {% include footer.html %}
 </body>
 </html>
