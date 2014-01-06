@@ -8,8 +8,11 @@
   a {
     color: $color-sidebar-link;
   }
-  inner {
+  .inner {
     padding: 20px;
+  }
+  .lead {
+    color: $color-sidebar-lead;
   }
 }
 

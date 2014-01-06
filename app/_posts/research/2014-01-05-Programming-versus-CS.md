@@ -1,5 +1,5 @@
 ---
-layout: cite
+layout: post
 title: Programming versus Computer Science
 category: research
 ---
@@ -17,3 +17,6 @@ Pellentesque tempus vestibulum lorem, a semper erat dapibus nec. Aenean eu turpi
 Etiam sed elit et neque vulputate interdum a vitae risus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam vel eros rutrum, dictum ante sed, facilisis lacus. Sed pulvinar turpis tempor dui volutpat elementum. Aenean eget lobortis felis, id vulputate quam. Proin ullamcorper posuere nibh dapibus condimentum. Donec pretium lectus velit, vitae semper enim porttitor sit amet. Phasellus molestie vulputate blandit. Duis volutpat auctor dui a adipiscing. Donec id malesuada enim. Suspendisse euismod ut eros sit amet commodo. Suspendisse semper diam vitae elit sodales feugiat. Sed non commodo justo, ac imperdiet metus. Vivamus ornare elementum dolor vel iaculis.
 
 Citations not working.
+
+## References
+{% bibliography --cited %}
