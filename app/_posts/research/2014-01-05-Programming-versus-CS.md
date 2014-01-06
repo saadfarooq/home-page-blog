@@ -4,7 +4,7 @@ title: Programming versus Computer Science
 category: research
 ---
 
-Denning and McGettrick published a paper in 2005 {% cite denning2005recentering %}.
+Denning and McGettrick {% cite denning2005recentering %} postulated that the number of entrants to computer science was dropping because the focus of the field was on 'programming' rather than something more engaging.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur augue consequat pretium elementum. Duis pellentesque, arcu at feugiat varius, purus ante malesuada mi, sed iaculis turpis elit et orci. Nullam nulla elit, pellentesque et gravida eu, consectetur at massa. In hac habitasse platea dictumst. Mauris imperdiet in risus sit amet ullamcorper. Curabitur eu euismod ligula, vitae bibendum orci. Integer non lacus nec quam feugiat cursus non vitae lacus. Curabitur non est ornare, sagittis sapien id, molestie leo. Donec pulvinar, sapien nec convallis congue, sapien enim semper mi, in euismod mi nulla ultricies dolor.
 

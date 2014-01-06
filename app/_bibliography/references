@@ -8,3 +8,22 @@
   year={2005},
   publisher={ACM}
 }
+
+@article{Rashid:2008:ICI:1364782.1364793,
+ author = {Rashid, Rick},
+ title = {Image Crisis: Inspiring a New Generation of Computer Scientists},
+ journal = {Commun. ACM},
+ issue_date = {July 2008},
+ volume = {51},
+ number = {7},
+ month = jul,
+ year = {2008},
+ issn = {0001-0782},
+ pages = {33--34},
+ numpages = {2},
+ url = {http://doi.acm.org/10.1145/1364782.1364793},
+ doi = {10.1145/1364782.1364793},
+ acmid = {1364793},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
