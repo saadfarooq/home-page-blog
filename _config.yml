@@ -112,3 +112,22 @@ analytics :
       baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
       idsite : '1'                   # the id of the site on Piwik
 
+# Jekyll scholar configuration
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  source: app/_bibliography
+  bibliography: references
+  bibliography_template: "%{reference}"
+
+  replace_strings: true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
