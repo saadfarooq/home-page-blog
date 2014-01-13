@@ -27,3 +27,12 @@
  publisher = {ACM},
  address = {New York, NY, USA},
 }
+
+@INPROCEEDINGS{Kaput02developingnew,
+    author = {James Kaput and Richard Noss and Celia Hoyles},
+    title = {Developing new notations for a learnable mathematics in the computational era},
+    booktitle = {In L. D. English (Ed.), Handbook of international research on mathematics education},
+    year = {2002},
+    pages = {51--75},
+    publisher = {press}
+}

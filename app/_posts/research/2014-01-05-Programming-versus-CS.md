@@ -2,6 +2,7 @@
 layout: post
 title: Programming versus Computer Science
 category: research
+tags: ['programming', 'CS', 'CSEd']
 ---
 
 Denning and McGettrick {% cite denning2005recentering %} postulated that the number of entrants to computer science was dropping because the focus of the field was on 'programming' rather than something more engaging.
