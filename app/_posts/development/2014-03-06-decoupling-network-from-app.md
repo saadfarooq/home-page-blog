@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Decoupling Your Network From Your Android App
+title: Decoupling Your Networking Code From Your Android App
 ---
 
 I recently changed from [`HttpUrlConnection`](http://developer.android.com/reference/java/net/HttpURLConnection.html) to the [`Volley`](https://developers.google.com/events/io/sessions/325304728) library for Android networking. Since the time that I wrote that first implementation, I've learned a thing or two about testing and writing clean code. One of the principles that I live by is:
